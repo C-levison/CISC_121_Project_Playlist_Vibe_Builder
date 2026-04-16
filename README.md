@@ -44,7 +44,7 @@ and the video is attached under Images.
 The program takes a playlist as input, represented as a list of dictionaries containing song attributes such as title, artist, and vibe. It then processes this data by first retrieving additional information via an API (hidden from the user) and applying merge sort based on vibe, duration, and added order. Side note: the added order follows a slightly different processing path than vibe or duration, which either pulls from the API key or requires user input. The order added has a tally, which essentially just adds a number to the tally and assigns that value to the count in the dictionary. During execution, intermediate steps are captured to create an animation of the sorting process. The output is both a visually animated sequence showing how the algorithm works and a final playlist.
 
 Flowchart for the code: 
-<img src="images/flowchart.JPG" width="600">
+<img src="images/flowchart.png" width="600">
 
 ## Steps to Run
 <img src="images/UI.png" width="600">
